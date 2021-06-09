@@ -42,6 +42,8 @@ app.event('app_mention', async ({ event, say, payload }) => {
 
 });
 
+//FUTURE TODO: figure how to integrate this damn bot with Github
+
 // Start your app
 (async () => {
   await app.start(process.env.PORT || 3000);
